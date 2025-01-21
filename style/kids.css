@@ -7,6 +7,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: #05d4df;
+}
+
 /* .container {
   width: 100%;
   justify-content: center;
@@ -145,5 +149,53 @@ nav .nav-button {
   } */
   nav {
     border: 1px solid orange;
+  }
+}
+
+/* Ending the navbar */
+
+/* Banner */
+
+.banner {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8vw;
+}
+
+.banner h3 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 1.25rem;
+}
+
+.enroll-btn {
+  width: 197px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+}
+
+#a2 {
+  color: orange;
+}
+
+#a3 {
+  color: #01acfd;
+}
+
+@media screen and (max-width: 700px) {
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 }
