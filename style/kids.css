@@ -199,3 +199,82 @@ nav .nav-button {
     text-align: center;
   }
 }
+
+/* Ending Banner */
+
+/* curriculum */
+
+.curriculum {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.cir-box {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  width: 32%;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 18.86px;
+  background-image: linear-gradient(
+    to bottom,
+    #def5ff,
+    white,
+    white,
+    white,
+    white
+  );
+  border: 1px solid #def5ff;
+}
+
+.cir-box h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cir-box p {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: #808080;
+}
+
+.cir-box a {
+  font-size: 0.92rem;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+}
+
+.cir-middle {
+  justify-content: space-between;
+}
+
+.curriculum {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.curriculum h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.cir-btn {
+  width: 60px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 24px;
+  border: none;
+  color: white;
+  margin-left: 20px;
+}
+
+/* Ending curriculum */
