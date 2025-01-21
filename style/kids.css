@@ -11,6 +11,11 @@ body {
   background-color: #05d4df;
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 /* .container {
   width: 100%;
   justify-content: center;
@@ -278,3 +283,97 @@ nav .nav-button {
 }
 
 /* Ending curriculum */
+
+/* story */
+
+.inside-story {
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inside-story h3 {
+  font-size: 2.875rem;
+  font-weight: bold;
+}
+
+.story-img {
+  display: flex;
+  height: 730px;
+  justify-content: space-between;
+}
+
+.img-1 {
+  width: 43%;
+  height: 100%;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.img-1 h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 30px 30px;
+  box-sizing: border-box;
+}
+.img-1 p {
+  font-size: 0.95rem;
+  color: #666666;
+  padding: 30px 30px;
+  box-sizing: border-box;
+}
+
+.img-rest {
+  width: 55%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 15px;
+  column-gap: 20px;
+}
+
+.img-1 img {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.img-r {
+  height: 100%;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.img-r img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.img-r p {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.story {
+  background-image: linear-gradient(to top, #f6dbab, white);
+}
+
+.story button {
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* ending Story */
+
+/* Footer */
