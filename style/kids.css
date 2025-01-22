@@ -1,14 +1,12 @@
 /* Working on the whole body */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 .quicksand-class {
   font-family: "Quicksand", serif;
   font-weight: normal;
   font-style: normal;
-}
-
-body {
-  background-color: #05d4df;
 }
 
 * {
@@ -16,6 +14,9 @@ body {
   margin: 0px;
 }
 
+#a7 {
+  color: orange;
+}
 /* .container {
   width: 100%;
   justify-content: center;
@@ -168,6 +169,12 @@ nav .nav-button {
   justify-content: space-between;
   align-items: center;
   gap: 8vw;
+  margin-bottom: 60px;
+}
+
+.banner-l {
+  flex-direction: column;
+  gap: 30px;
 }
 
 .banner h3 {
@@ -213,6 +220,10 @@ nav .nav-button {
   width: 90%;
   margin: 0 auto;
   background-color: white;
+  margin-bottom: 60px;
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .cir-box {
@@ -220,11 +231,16 @@ nav .nav-button {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color: yellow;
   width: 32%;
+  height: 480px;
   padding: 32px;
   box-sizing: border-box;
   border-radius: 18.86px;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+#box-1 {
   background-image: linear-gradient(
     to bottom,
     #def5ff,
@@ -233,7 +249,43 @@ nav .nav-button {
     white,
     white
   );
-  border: 1px solid #def5ff;
+  border: 2px solid #def5ff;
+}
+
+#box-1 a {
+  color: #64c8ff;
+}
+
+#box-2 {
+  background-image: linear-gradient(
+    to bottom,
+    #fff4dc,
+    white,
+    white,
+    white,
+    white
+  );
+  border: 2px solid #fff4dc;
+}
+
+#box-2 a {
+  color: #f0aa00;
+}
+
+#box-3 {
+  background-image: linear-gradient(
+    to bottom,
+    #f2e8ff,
+    white,
+    white,
+    white,
+    white
+  );
+  border: 2px solid #f2e8ff;
+}
+
+#box-3 a {
+  color: #8700ff;
 }
 
 .cir-box h4 {
@@ -242,6 +294,7 @@ nav .nav-button {
 }
 
 .cir-box p {
+  font-family: "Raleway", serif;
   font-size: 0.92rem;
   font-weight: 500;
   color: #808080;
@@ -250,7 +303,6 @@ nav .nav-button {
 .cir-box a {
   font-size: 0.92rem;
   font-weight: bold;
-  color: red;
   text-decoration: none;
 }
 
@@ -288,10 +340,13 @@ nav .nav-button {
 
 .inside-story {
   width: 90%;
-  margin: 0 auto;
+  margin: 60px auto 0px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 60px;
+  gap: 80px;
+  background-image: url("../assets/bg.png");
 }
 
 .inside-story h3 {
@@ -320,6 +375,7 @@ nav .nav-button {
   box-sizing: border-box;
 }
 .img-1 p {
+  font-family: "Raleway", serif;
   font-size: 0.95rem;
   color: #666666;
   padding: 30px 30px;
@@ -419,6 +475,8 @@ footer {
 .footer-info {
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 175px;
+  padding-top: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -431,7 +489,7 @@ footer {
 
 .footer-r {
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 30px;
   font-size: 1.625rem;
@@ -454,7 +512,7 @@ footer {
 
 .footer-ll {
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: 1.25rem;
   color: white;
   font-weight: 400;
