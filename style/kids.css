@@ -123,36 +123,6 @@ nav .nav-button {
     display: block;
   }
 
-  /* .hidden-btn {
-    display: inline-block;
-    cursor: pointer;
-  }
-
-  #toggle:checked + .nav-middle {
-    display: block;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    top: 100px;
-  } */
-
-  /* .hidden-btn:hover > .nav-middle {
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    top: 100px;
-  } */
-
-  /* hr {
-    display: block;
-  } */
-
-  /* .nav-middle {
-    flex-direction: column;
-    position: absolute;
-    right: 0px;
-    top: 100px;
-  } */
   nav {
     border: 1px solid orange;
   }
@@ -210,6 +180,9 @@ nav .nav-button {
     flex-direction: column-reverse;
     text-align: center;
   }
+  .banner-l {
+    align-items: center;
+  }
 }
 
 /* Ending Banner */
@@ -222,8 +195,6 @@ nav .nav-button {
   background-color: white;
   margin-bottom: 60px;
   background-image: url("../assets/bg.png");
-  background-size: cover;
-  background-position: center;
 }
 
 .cir-box {
@@ -332,6 +303,20 @@ nav .nav-button {
   border: none;
   color: white;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .cir-middle {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cir-box {
+    width: auto;
+  }
+
+  .cir-btn {
+    display: none;
+  }
 }
 
 /* Ending curriculum */
@@ -465,6 +450,16 @@ nav .nav-button {
   font-weight: bold;
 }
 
+@media screen and (max-width: 700px) {
+  .img-1 {
+    display: none;
+  }
+
+  .img-rest {
+    width: auto;
+  }
+}
+
 /* ending Story */
 
 /* Footer */
@@ -528,4 +523,20 @@ footer {
   font-size: 2.64rem;
   font-weight: bold;
   color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-m {
+    margin: 0;
+  }
+
+  .footer-r {
+    align-items: flex-start;
+  }
 }
