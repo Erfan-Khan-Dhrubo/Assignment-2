@@ -310,6 +310,7 @@ nav .nav-button {
   height: 100%;
   background-color: white;
   border-radius: 16px;
+  position: relative;
 }
 
 .img-1 h3 {
@@ -341,10 +342,44 @@ nav .nav-button {
   border-top-right-radius: 16px;
 }
 
+#a6 {
+  position: absolute;
+  top: calc(50% - 23.5px);
+  left: 7.5%;
+  z-index: 2;
+  background-color: #3cd8e8;
+  width: 33%;
+  height: 47px;
+  border-radius: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: white;
+  font-size: 0.95rem;
+}
+
 .img-r {
   height: 100%;
   border-radius: 16px;
   background-color: white;
+  position: relative;
+}
+
+.float-bar {
+  position: absolute;
+  width: 55%;
+  height: 38px;
+  background-color: #01acfd;
+  border-radius: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: calc(60% - 19px);
+  left: 14.2%;
+  font-weight: 500;
+  color: white;
+  font-size: 0.95rem;
 }
 
 .img-r img {
