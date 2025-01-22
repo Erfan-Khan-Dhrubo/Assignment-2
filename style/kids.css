@@ -17,6 +17,7 @@
 #a7 {
   color: orange;
 }
+
 /* .container {
   width: 100%;
   justify-content: center;
@@ -88,11 +89,11 @@ nav .nav-middle a {
   font-size: 2rem;
 }
 
-/* .hidden-btn button {
+.hidden-btn button {
   font-size: 2rem;
   background-color: white;
   border: none;
-} */
+}
 
 nav .nav-button {
   width: 100%;
@@ -182,6 +183,15 @@ nav .nav-button {
   }
   .banner-l {
     align-items: center;
+  }
+  /* .ban-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  } */
+
+  .ban-img img {
+    width: 100%;
   }
 }
 
@@ -289,7 +299,7 @@ nav .nav-button {
 }
 
 .curriculum h3 {
-  font-size: 3rem;
+  font-size: 2.875rem;
   font-weight: bold;
 }
 
@@ -386,11 +396,12 @@ nav .nav-button {
 #a6 {
   position: absolute;
   top: calc(50% - 23.5px);
-  left: 7.5%;
-  z-index: 2;
+  left: 3vw;
+  /* z-index: 2; */
   background-color: #3cd8e8;
-  width: 33%;
+  /* width: 33%; */
   height: 47px;
+  padding: 0px 1vw;
   border-radius: 47px;
   display: flex;
   justify-content: center;
@@ -409,18 +420,20 @@ nav .nav-button {
 
 .float-bar {
   position: absolute;
-  width: 55%;
+  /* width: auto; */
   height: 38px;
+  padding: 0px 1vw;
   background-color: #01acfd;
   border-radius: 47px;
   display: flex;
   justify-content: center;
   align-items: center;
   top: calc(60% - 19px);
-  left: 14.2%;
+  left: 1vw;
   font-weight: 500;
   color: white;
   font-size: 0.95rem;
+  box-sizing: border-box;
 }
 
 .img-r img {
@@ -457,6 +470,13 @@ nav .nav-button {
 
   .img-rest {
     width: auto;
+  }
+  /* .float-bar {
+    left: 5%;
+  } */
+
+  .curriculum h3 {
+    font-size: 2rem;
   }
 }
 
